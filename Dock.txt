@@ -1,0 +1,23 @@
+sudo apt install docker.io
+sudo apt get update
+sudo systemctl enable docker
+sudo systemctl status docker
+
+(create one folder eg: myproject)
+mkdir myproject
+
+( create one HTML file (index.html) and one Dockerfile)
+touch index.html  (add some content)
+
+touch Dockerfile   (add in it)
+FROM nginx
+COPY index.html/usr/share/nginx/html
+
+sudo docker build -t myproject .
+
+sudo docker images
+
+sudo docker run -d -p 8081:80 myproject
+
+Goto browser  0.0.0.0:8081
+
