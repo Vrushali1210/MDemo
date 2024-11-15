@@ -1,0 +1,33 @@
+sudo apt install ngrok
+sudo systemctl status jenkins
+
+Terminal
+ngrok http 8080
+(On forward link.copy upto free.app , Goto browser)
+
+click visit site
+open jenkins
+
+Github
+from github copy url of repo you want deploy
+
+Jenkins
+click on new item , enter item name(demo), select freestyle project, click OK,  from source code management Select git and paste the github repo Url, 
+from Branches to build (write main instead of master) , from build select Github hook trigger for GITScm polling, Click apply save.
+
+
+Github
+on Repo, click setting, click Webhooks, add Webhook, On payload URL(copy the url from terminal upto free.app and paste here and add after that /github-webhook/)
+select content type (application/json), select send me everything , click add webhook, then refresh (see green tick), 
+
+
+Jenkins
+click on build now (after successful build )
+click workspace and run html file
+
+click config , build steps, select execute shell, Write command
+cp -r */var/www/html/
+apply and save
+click build now
+0.0.0.0.
+ 

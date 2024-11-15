@@ -1,0 +1,21 @@
+BITBUCKET
+Goto bitbucket - >login ->create repo →click on clone (copy The  URL) → paste The on Terminal -> possward
+how to create possward: setting-> personal Bitbucket setting -> APP password -> create app pass -copy id -> paste on terminal
+Goto Terminal -> paste The URL
+cd demo
+Touch Sampal.txt 
+git odd.
+git commit -m "1st change"
+git status
+ls
+git branch branch 1
+git checkout branch 1
+git Status
+touch sampal2.txt
+git add.
+git commit -m "second commit".
+git status
+git push origin branch 1
+Goto git bucket
+goto repo -> create pull request -> menge.
+git pull origin main

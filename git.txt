@@ -1,0 +1,20 @@
+Git 
+git --version
+git config --global user.name "name"
+git config --global user.email "email"
+git init myrepo
+cd myrepo
+touch sample.txt
+git add sample.txt
+git add .
+git status
+git commit -m "First Change"
+git log
+git branch branch1
+git checkout branch1
+touch newfile.txt
+git add .
+git commit -m "second Change"
+git status
+git checkout master
+git merge branch1

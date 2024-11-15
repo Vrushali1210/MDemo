@@ -1,0 +1,19 @@
+GITLAB
+gitlab -> account create -> create project
+git clone <gitlab-project-url>
+cd sample
+IS
+git branch branch 1
+git checkout branch 1
+ls
+touch demo1.txt
+git checkout master
+ls
+git checkout branch 1
+git add.
+git commit -m" change done"
+git checkout master
+git push origin branch 1
+git Checkout master
+git pull origin master
+ls

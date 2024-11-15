@@ -1,0 +1,32 @@
+GITHUB
+Login on aithab
+Create a new repo on github.
+copy repo url from githab Then gato torminal
+git clone <Paste The url That is copy>
+cd < reponame>
+git status
+git add .
+git commit -m "Change Done"
+git branch branch2
+git checkout branch 2
+git push origin < branch-name>
+Goto Githube:right click -> settings -> Developer setiing→personal access token -> token classic-> generate new token -> generale new leven classic ->
+click check box (except workflow)→generate token-> copy-id of token
+Goto Terminal -
+git remote set-url origin http: paste token @github.com/paste (username / reponame)
+git pash origin < branch-name>
+Goto github:
+github->pull request option->compare->create pull req->merge pull req->merge confim
+git status
+git checkout main
+git add .
+git commit -m "change done"
+git push origin main
+git pull origin main
+gil add.
+git commit -m "change done"
+git pull origin main
+
+[git remote-v
+git remote add origin (url copy paste(repo))
+git push origin branch ]
